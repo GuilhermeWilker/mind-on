@@ -39,7 +39,7 @@ export default defineStore("mentalBlock", {
       document.body.appendChild(newDiv);
       newInput.focus();
 
-      // Remove o bloco com atalho [CTRL + Click]
+      // Remover o bloco com atalho [CTRL + Click]
       newDiv.addEventListener("click", (event) => {
         if (event.ctrlKey) {
           document.body.removeChild(newDiv);

@@ -1,18 +1,23 @@
 <template>
   <div
     @click="addMentalBlock"
-    class="app"
+    class="board"
     :style="{ backgroundImage: `url(${backgroundImageUrl})` }"
   >
+    <NavBar />
     <canvas ref="canvas" class="canvas"></canvas>
   </div>
 </template>
 
 <script>
 import { mapActions } from "pinia";
+import NavBar from "./components/NavBar.vue";
 import useMentalBlockStore from "./stores/mentalBlock";
 
 export default {
+  components: {
+    NavBar,
+  },
   data() {
     return {
       backgroundImageUrl: "",
@@ -48,16 +53,12 @@ export default {
       ctx.strokeStyle = "#CCCCCC";
       ctx.stroke();
     }
-
-    // Converter o canvas em uma imagem de dados de URL
-    const dataUrl = canvas.toDataURL();
-    this.backgroundImageUrl = dataUrl;
   },
 };
 </script>
 
 <style>
-.app {
+.board {
   width: 100vw;
   height: 100vh;
 
