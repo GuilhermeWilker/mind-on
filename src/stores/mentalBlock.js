@@ -4,8 +4,8 @@ export default defineStore("mentalBlock", {
   actions: {
     createMentalBlock(e) {
       // Coordenadas X e Y do mouse
-      const x = e.clientX - 138;
-      const y = e.clientY - 60;
+      const x = e.clientX - 130;
+      const y = e.clientY - 67;
 
       // Criando novo elemento div, configurando posição - estilo - input de texto
       const newDiv = document.createElement("div");
@@ -13,11 +13,11 @@ export default defineStore("mentalBlock", {
          position: absolute;
          left: ${x}px;
          top: ${y}px;
-         width: 276px;
-         height: 120px;
+         width: 268px;
+         height: 134px;
          background-color: white;
-         box-shadow: 3px 4px 12px 2px rgba(0, 0, 0, 0.25);
-         border-radius: 10px;
+         box-shadow: 10px 10px 0px #000000;
+         border: 1px solid #000000;
        `;
 
       const newInput = document.createElement("input");
