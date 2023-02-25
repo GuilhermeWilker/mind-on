@@ -14,22 +14,24 @@ export default defineStore("mentalBlock", {
          left: ${x}px;
          top: ${y}px;
          width: 268px;
-         height: 134px;
+         height: 110px;
          background-color: white;
          box-shadow: 10px 10px 0px #000000;
          border: 1px solid #000000;
        `;
 
-      const newInput = document.createElement("input");
+      const newInput = document.createElement("textarea");
       newInput.style.cssText = `
          width: 100%;
          height: 100%;
+         padding: 30px;
          border:none;
-         border-radius: 8px;
          outline: none;
          font-family: sans-serif;
          font-size: 18px;
          text-align: center;
+         resize: none;
+         overflow-y: hidden;
  
          cursor: pointer;
        `;

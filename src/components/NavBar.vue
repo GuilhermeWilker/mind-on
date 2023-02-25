@@ -23,7 +23,7 @@ export default {
   margin: 20px;
   padding: 15px;
 
-  background-color: black;
+  background-color: rgb(24, 23, 23);
   border-radius: 5px;
   text-align: center;
 
@@ -38,13 +38,7 @@ h4 {
 .navbar .lastH4 {
   padding: 5px 0;
 }
-.btn-seta {
-  padding: 15px;
-  border: none;
-  color: white;
 
-  background-color: #bfbcc5;
-}
 .gradient-animation {
   background: -webkit-linear-gradient(left, #4fca67, #4f67ca);
   background-clip: text;

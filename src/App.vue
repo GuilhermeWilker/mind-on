@@ -21,7 +21,9 @@ export default {
   data() {
     return {
       backgroundImageUrl: "",
-      arrows: [],
+      // isDrawing: false,
+      // startX: null,
+      // startY: null,
     };
   },
   methods: {
@@ -29,6 +31,14 @@ export default {
     addMentalBlock(e) {
       this.createMentalBlock(e);
     },
+    // handleKeyDown(e) {
+    //   if (e.code === "space") {
+    //     window.addEventListener("click", this.handleMouseClick);
+    //   }
+    // },
+    // handleMouseClick(e) {
+
+    // },
   },
   mounted() {
     const canvas = document.createElement("canvas");
@@ -51,6 +61,12 @@ export default {
       ctx.strokeStyle = "#CCCCCC";
       ctx.stroke();
     }
+
+    // Linhas do autor
+    // ctx.lineWidth = 4;
+    // ctx.strokeStyle = "#000000";
+
+    // window.addEventListener("keydown", this.handleKeyDown);
   },
 };
 </script>
