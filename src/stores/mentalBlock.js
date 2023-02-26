@@ -13,7 +13,7 @@ export default defineStore("mentalBlock", {
          position: absolute;
          left: ${x}px;
          top: ${y}px;
-         width: 268px;
+         width: 250px;
          height: 110px;
          background-color: white;
          box-shadow: 10px 10px 0px #000000;
@@ -24,7 +24,7 @@ export default defineStore("mentalBlock", {
       newInput.style.cssText = `
          width: 100%;
          height: 100%;
-         padding: 30px;
+         padding: 30px 5px 5px 5px;
          border:none;
          outline: none;
          font-family: sans-serif;
@@ -32,7 +32,6 @@ export default defineStore("mentalBlock", {
          text-align: center;
          resize: none;
          overflow-y: hidden;
- 
          cursor: pointer;
        `;
 
