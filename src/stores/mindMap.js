@@ -1,8 +1,8 @@
 import { defineStore } from "pinia";
 
-export default defineStore("mentalBlock", {
+export default defineStore("mindMap", {
   actions: {
-    createMentalBlock(e) {
+    createMindMap(e) {
       // Coordenadas X e Y do mouse
       const x = e.clientX - 130;
       const y = e.clientY - 67;
