@@ -1,28 +1,49 @@
-# Mind On
+# 🧠 Mind On
 
-Mapa mental online
+**Mind on** é um web aplicativo para criação de mapas mentais. Facilitando o processo de absorção de conteúdo ou até mesmo no desenvolvimento de novas idéias.
 
-## Recommended IDE Setup
+Usar mapas mentais, são uma forma de representar visualmente ideias e conceitos em uma estrutura hierárquica, facilitando a compreensão e a organização de informações. Com o Mind on, você pode criar _mind frames_ de forma rápida, fácil e intuitiva.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[Acesse e comece a utilizar agora mesmo!](https://google.com).
 
-## Customize configuration
+## 🖼️ Interface do Web Aplicativo
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**_Board de desenvolvimento_**
+![Home do Site](/public/readme/board.png "Board de desenvolvimento")
+
+### 💻 Funcionalidades presentes no Web Aplicativo:
+
+- [x] Download de imagem do board (formato png).
+- [x] CRUD de mind frames -> criar, editar e deletar blocos de texto.
+
+## 📫 Projeto Open Source - Contribua!
+
+Contribua com novas funcionalidades e melhorias ao projeto!
+
+---
+
+1. Bifurque este repositório.
+2. Criando uma branch => `git checkout -b <nome_branch>`.
+3. Após suas alterações, confirme-as usando => `git commit -m '<mensagem_commit>'`
+4. Crie a solicitação de pull.
+
+Caso tenha dúvidas, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Project Setup
+
+- Primeiro instale o projeto utilizando o comando abaixo:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+- Compilando o projeto e criando ambiente local para desenvolvimento:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+- Compilando e minificando para Produção:
 
 ```sh
 npm run build
