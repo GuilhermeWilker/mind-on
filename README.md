@@ -4,7 +4,7 @@
 
 Usar mapas mentais, são uma forma de representar visualmente ideias e conceitos em uma estrutura hierárquica, facilitando a compreensão e a organização de informações. Com o Mind on, você pode criar _mind frames_ de forma rápida, fácil e intuitiva.
 
-[Acesse e comece a utilizar agora mesmo!](https://google.com).
+[Acesse e comece a utilizar agora mesmo!](https://mindon-page.netlify.app/).
 
 ## 🖼️ Interface do Web Aplicativo
 
